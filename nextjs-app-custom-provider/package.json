@@ -8,11 +8,19 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@coin-voyage/paykit": "^0.1.11",
     "@tanstack/react-query": "^5.68.0",
     "@solana/wallet-adapter-react": "^0.24.1",
     "@mysten/dapp-kit": "^0.16.9",
     "wagmi": "^2.15.1",
+=======
+    "@coin-voyage/paykit": "latest",
+    "@tanstack/react-query": "5.64.1",
+    "@solana/wallet-adapter-react": "0.15.35",
+    "@mysten/dapp-kit": "0.14.48",
+    "wagmi": "2.14.8",
+>>>>>>> parent of 92fa390 (Update package.json)
     "lucide-react": "0.469.0",
     "next": "14.2.21",
     "react": "18.2.0",
@@ -25,9 +33,13 @@
     "autoprefixer": "10.4.14",
     "postcss": "8.4.49",
     "tailwindcss": "3.4.17",
+<<<<<<< HEAD
     "typescript": "5.3.3"
   },
   "engines": {
     "node": ">=18.x"
+=======
+    "typescript": "5.7.3"
+>>>>>>> parent of 92fa390 (Update package.json)
   }
 }
