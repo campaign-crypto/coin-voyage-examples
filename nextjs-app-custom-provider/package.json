@@ -1,6 +1,7 @@
 {
   "name": "@coin-voyage/nextjs-app-example-custom-provider",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +11,7 @@
   "dependencies": {
     "@coin-voyage/paykit": "^0.1.10",
     "@tanstack/react-query": "^5.68.0",
-  "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react": "^0.15.35",
     "@mysten/dapp-kit": "^0.16.9",
     "wagmi": "^2.15.1",
     "lucide-react": "0.469.0",
